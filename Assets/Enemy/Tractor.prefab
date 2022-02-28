@@ -542,6 +542,8 @@ GameObject:
   - component: {fileID: 23827694210575774}
   - component: {fileID: 64278466664056704}
   - component: {fileID: 598163163378763922}
+  - component: {fileID: 3945357145183635534}
+  - component: {fileID: 7495834973971378859}
   m_Layer: 0
   m_Name: Tractor
   m_TagString: Untagged
@@ -646,7 +648,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
-  waitTime: 1
+  speed: 1
+--- !u!65 &3945357145183635534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667883723368190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.700835, y: 2.908916, z: 7.03}
+  m_Center: {x: 0, y: 1.41, z: 1.17}
+--- !u!114 &7495834973971378859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667883723368190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc19de3c2dfa5564f939d2bbb500f659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1684133939360452
 GameObject:
   m_ObjectHideFlags: 0
